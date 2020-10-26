@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,EAAE;EACE,KAAK,ECJI,MAAM",
+"sources": ["../sass/style.scss","../sass/_colors.scss"],
+"names": [],
+"file": "estilos.css"
+}

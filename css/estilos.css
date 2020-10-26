@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+color: #594a4e;
+font-weight: bold;
+letter-spacing: 2px;
+font-family: 'Roboto', monospace;
+
+}
+h3 {
+   color: #d9261c;
+   font-family: 'Roboto', monospace;
+   font-weight: bolder;
+
+}
+
+p, li {
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+}
+
+.navColor {
+  background-color: #d9261c;
+
+}
+
+.bannerSection{
+  max-width: 100%;
+}
+
+.container2 {
+margin:30px;
+}
+
+.textPro {
+  margin-top: 30px;
+}
+
+.historia-container {
+  display: flex;
+  justify-content: center;
+}
+
+.textoHistoria{
+ margin-top: 150px;
+ 
+}
+.imgCup {
+  display: flex;
+  justify-content: center;
+}
+.coffeeColor {
+  color: #d9261c;
+  font-weight: bold;
+}
+.lovers-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.lovers-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.lista {
+  margin-top: 30px;
+}
+.titleContact {
+  margin: 30px 0;
+}
+.contacto-container{
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+}
+
+.contacto-grid{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 50px;
+}
+#footer {
+  background-color: #d9261c;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+.mapa{
+  float: left;
+}
+
+@media only screen and (max-width: 400px) {
+
+  nav a{
+      display: table-row;
+  }
+
+  .historia-grid {
+      margin: 0 10px;
+  }
+  .loversVideo{
+      width: 350px;
+      
+  }
+
+  .item-mapa{
+      width: auto;
+  }
+  .bannerSection{
+      display: none;
+  }
+  
+  .sectionDos {
+  
+      background-image: url("./imagenes/manti_coffee_historia_m.png");
+      background-size: cover;
+      height: 400px;
+      width: 400px;
+  }
+ 
+  .coffeeColor {
+      background-color: black;
+      border: 10px;
+  }
+  
+  .textoHistoria {
+      margin: 0 30px;
+      text-align: center;    
+  }
+  .textLovers {
+      margin: 0 30px;
+      text-align: center;  
+  }
+  .lista {
+      list-style: none;
+  }
+  .formMargin {
+      margin: 20px;
+  }
+  .titleContact {
+      margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+  nav a {
+      display: -webkit-inline-box;
+  }
+  nav img {
+      width: 20%;
+  }
+
+  #slider {
+      margin-top: 320px;
+  }
+
+  .item-mapa{
+      width: auto;
+  }
+  
+
+}
+
+@media only screen and (min-width: 961px) {
+
+
+}
+
